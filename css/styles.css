@@ -1,0 +1,155 @@
+/* Navbar */
+.navbar {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand img {
+    max-height: 30px; /* El tamaño máximo sigue siendo 30px */
+    width: auto; /* Mantener la proporción del logo */
+    transition: transform 0.3s ease-in-out; /* Transición para el zoom */
+}
+
+/* Efecto de zoom al pasar el mouse sobre el logo */
+.navbar-brand img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al 10% cuando se pasa el mouse */
+}
+
+.navbar-nav .nav-link {
+    margin: 0 15px; /* Ajuste del espaciado */
+    font-size: 0.95rem;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar .d-flex .text-center {
+    font-size: 0.8rem; /* Tamaño del texto para íconos */
+    color: #555;
+    text-align: center;
+}
+
+.navbar .d-flex .text-center i {
+    font-size: 1.2rem; /* Tamaño del ícono */
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.navbar .d-flex .text-center i:hover {
+    color: #007bff;
+}
+
+.navbar .d-flex .text-center p {
+    margin: 2px 0 0;
+    font-size: 0.75rem; /* Ajuste del tamaño del texto */
+    color: #555;
+}
+
+/* Carousel */
+.carousel-item img {
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.carousel-caption .btn {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.carousel-caption .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Tarjetas */
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out; /* Transición para el zoom */
+}
+
+.card img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al 10% cuando se pasa el mouse */
+}
+
+.card .badge {
+    font-size: 0.8rem;
+}
+
+.card h5 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.card small {
+    color: #999;
+}
+
+/* Footer */
+footer {
+    font-family: 'Arial', sans-serif;
+}
+
+footer h5 {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    margin-bottom: 8px;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #d1d1d1;
+}
+
+footer .fab {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+footer .fab:hover {
+    color: #d1d1d1;
+}
+
+footer .img-fluid {
+    border-radius: 10px;
+}
+
+footer .d-flex img {
+    max-height: 50px;
+    margin: 0 10px;
+}

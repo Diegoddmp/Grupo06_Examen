@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9; /* Fondo claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    color: #007bff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* Imágenes de Galería */
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos de las imágenes */
+.gallery h5 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #555;
+}
+
+/* Párrafos */
+p {
+    color: #666;
+    font-size: 1rem;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Botones */
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+
+
+/* Sección de Texto Central */
+.text-center img {
+    border: 3px solid #ddd;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.text-center img:hover {
+    transform: scale(1.05);
+    border-color: #007bff;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .gallery img {
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 0.95rem;
+    }
+}

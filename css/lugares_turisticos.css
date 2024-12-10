@@ -1,0 +1,55 @@
+.city-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    /* Elimina el subrayado */
+    color: #000;
+    /* Color del texto */
+    background-color: #f0f0f0;
+    /* Fondo del botón */
+    border: 2px solid #ccc;
+    /* Borde del botón */
+    border-radius: 30px;
+    /* Bordes redondeados */
+    transition: all 0.3s ease;
+    /* Transición suave para hover */
+    text-align: center;
+}
+
+.city-btn:hover {
+    background-color: #d9d9d9;
+    /* Cambia el color al pasar el cursor */
+    border-color: #bbb;
+    /* Cambia el color del borde */
+    color: #000;
+    /* Color del texto en hover */
+}
+
+.city-btn.active {
+    background-color: #007bff;
+    /* Color de fondo para el botón activo */
+    color: #fff;
+    /* Color del texto para el botón activo */
+    border-color: #0056b3;
+    /* Color del borde para el botón activo */
+}
+
+.d-flex {
+    margin-bottom: 20px;
+    /* Ajusta el valor según el espacio deseado */
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Fondo del texto descriptivo */
+.description {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}

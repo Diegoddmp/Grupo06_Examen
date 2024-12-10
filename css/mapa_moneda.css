@@ -1,0 +1,32 @@
+/* Estilo base para el mapa */
+#world-map {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Estilo para los países */
+#countries path {
+    fill: #e0e0e0; /* Color base de los países */
+    stroke: #666;
+    stroke-width: 0.5;
+    transition: fill 0.3s, transform 0.3s;
+}
+
+/* Resaltado del país al pasar el cursor */
+#countries path:hover {
+    fill: #ff6b6b; /* Color al resaltar */
+    transform: scale(1.1); /* Efecto de agrandamiento */
+    cursor: pointer;
+}
+
+/* Estilo específico para Italia */
+#italy {
+    fill: #ffcc00; /* Color distintivo para Italia */
+}
+
+#italy:hover {
+    fill: #ff4500; /* Color al resaltar Italia */
+}
